@@ -1,3 +1,36 @@
-h1 {
-	color:green;
+html{
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	background-color:greenyellow;
+
 }
+.tabl {
+	display: flex;
+	gap: 1.4em;
+	padding: 0.6rem;
+	border: 1px solid black;
+	align-items: center;
+	justify-content: center;
+}
+h1 {
+	padding: 2rem;
+	display:block;
+	background: green;
+	text-align:center;
+	color: black;
+
+
+}
+img {
+	height: 70%;
+	max-height: 30rem;
+	min-height: 15em;
+	width: 70%;
+	max-width: 30rem;
+	min-width: 15em;
+}
+.txt{
+	text-align:center;
+	line-height: 1.6rem;
+	width:25%
+}
+
