@@ -1,24 +1,33 @@
-html{
+body {
 	font-family: Georgia, 'Times New Roman', Times, serif;
-	background-color:greenyellow;
-
+	background-color: #228B22;
 }
 .tabl {
 	display: flex;
 	gap: 1.4em;
 	padding: 0.6rem;
-	border: 1px solid black;
+/*	border: 1px solid black;*/
 	align-items: center;
 	justify-content: center;
 }
+.nes {
+	display: flex;
+	gap: 1.4em;
+	padding: 0.6rem;
+/*	border: 1px solid black;*/
+	align-items: center;
+	justify-content: center;
+	margin:1rem;
+}
 h1 {
 	padding: 2rem;
-	display:block;
-	background: green;
-	text-align:center;
+	display: block;
+	background: greenyellow;
+	text-align: center;
 	color: black;
-
-
+}
+h2 {
+	text-align:center;
 }
 img {
 	height: 70%;
@@ -27,10 +36,29 @@ img {
 	width: 70%;
 	max-width: 30rem;
 	min-width: 15em;
+	border-radius:1.6rem;
 }
-.txt{
-	text-align:center;
+.txt {
+	background-color: darkcyan;
+	border: 3px solid black;
+	text-align: center;
 	line-height: 1.6rem;
-	width:25%
+	width: 33%;
+	border-radius: 1.6rem;
 }
 
+a {
+	color: lightcyan;
+	text-decoration: none;
+}
+
+.nerd {
+	display: flex;
+	background: #228B22;
+	gap: 1.4em;
+	padding: 2rem;
+/*	border: 1px solid brown;*/
+	align-items: center;
+	justify-content: center;
+	margin:10rem;
+}
